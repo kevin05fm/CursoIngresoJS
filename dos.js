@@ -1,12 +1,15 @@
 function Mostrar()
 {
   var importe;
-
-  var importe=prompt("ingrese importe");
+	
+	importe=prompt("el importe es ");
   
-  importe=parseInt(importe);
-  importe=importe+(importe*21)/100;
+  	importe=parseInt(importe);
+  	importe=importe+(importe*21)/100;
+  
+  	document.getElementById('importeFinal').value=importe;
 
- document.getElementById('importeFinal').value=importe;
+  
+
 
 }

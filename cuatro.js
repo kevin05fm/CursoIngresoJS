@@ -1,43 +1,42 @@
 function Mostrar()
 {
 	var numeroUno;
-	var numeroDos;
-	var resultado;
+ 	var numeroDos;
+ 	var resultado;
+ 
+ 	
+  	numeroUno=prompt("primer numero" );
+ 	numeroDos=prompt("segundo numero" );
 
-	
- 	numeroUno=prompt("primer numero" );
-	numeroDos=prompt("segundo numero" );
-
-	if(numeroUno==numeroDos)
-
+ 	numeroUno=parseInt(numeroUno);
+ 	numeroDos=parseInt(numeroDos);
+ 
+ 	if(numeroUno==numeroDos)
+ 
 	{  
-		resultado=(numeroUno*numeroDos);
-
+ 		resultado=(numeroUno*numeroDos);
+ 
 		document.write("el resultado es " + resultado);
-
-	}
-	else
-		{	if (numeroUno>numeroDos) 
-			{
-				resultado=(numeroUno-numeroDos);
-
-				document.write("el resultado es " + resultado);
-
-			}
+ 
+ 	}
+ 	else
+ 		{	if (numeroUno>numeroDos) 
+ 			{
+ 				resultado=(numeroUno-numeroDos);
+ 
+ 				document.write("el resultado es " + resultado);
+ 
+ 			}
 			else
-			{
-				resultado=(numeroUno + numeroDos);
+ 			{
+ 				resultado=(numeroUno + numeroDos);
+ 
+ 				document.write("el resultado es " + resultado);
+ 
+ 
+ 			}
+ 
+			 				
 
-				document.write("el resultado es " + resultado);
-
-
-			}
-
-			 
-				
-
-		}
- 		
- 		
-
+ 		}
 }

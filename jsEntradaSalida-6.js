@@ -2,18 +2,20 @@
 transformarlos a enteros (parseInt) y Sumarlos.
 Mostar el resulto por medio de "ALERT"*/
 function sumar()
-{   var num1;
-	var num2;
-    var suma;
-	num1=document.getElementById('numeroUno').value;
-	num2=document.getElementById('numeroDos').value;
+{
+	var numeroUno;
+	var numeroDos;
+	var resulto;
 
-	num1=parseInt(num1);
-    num2=parseInt(num2);
-    suma= num1+num2;
+	numeroUno=document.getElementById('numeroUno').value;
+	numeroDos=document.getElementById('numeroDos').value;
 
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
 
-    alert("la suma es"+ suma);
+	resulto=(numeroUno+numeroDos);
+
+	alert("La suma es "+ resulto);
 
 }
 

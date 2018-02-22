@@ -4,68 +4,63 @@ mostar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	var num1;
-	var num2;
-	var suma;
+	var numeroUno;
+	var numeroDos;
+	var resulto;
 
-	num1=document.getElementById('numeroUno').value;
-	num2=document.getElementById('numeroDos').value;
+	numeroUno=document.getElementById('numeroUno').value;
+	numeroDos=document.getElementById('numeroDos').value;
 
-	num1=parseInt(num1);
-	num2=parseInt(num2);
-    suma= num1+num2;
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
 
-	alert("la suma es" + suma);
+	resulto=(numeroUno+numeroDos);
 
+	alert("la suma es "+resulto);
 }
 
 function restar()
 {
-	var num1;
-	var num2;
-	var resta;
+	
+	numeroUno=document.getElementById('numeroUno').value;
+	numeroDos=document.getElementById('numeroDos').value;
 
-	num1=document.getElementById('numeroUno').value;
-	num2=document.getElementById('numeroDos').value;
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
 
-    num1=parseInt(num1);
-    num2=parseInt(num2);
-    resta= num1-num2;
+	resulto=(numeroUno - numeroDos);
 
-
-	alert("la resta es " + resta);
+	alert("la resta es "+resulto);
 }
 
 function multiplicar()
 { 
-   var num1;  
-   var num2;
-   var multiplicar;
+	
+	numeroUno=document.getElementById('numeroUno').value;
+	numeroDos=document.getElementById('numeroDos').value;
 
-   num1=document.getElementById('numeroUno').value;
-   num2=document.getElementById('numeroDos').value;
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
 
-   num1=parseInt(num1);
-   num2=parseInt(num2);
-   multiplicar= num1*num2;
+	resulto=(numeroUno*numeroDos);
 
-   alert("la multiplicacion es "+ multiplicar);
+	alert("la multiplicacion es "+resulto);
+
 
 }
 
 function dividir()
 {
-	var num1;
-	var num2;
-	var dividir;
+	numeroUno=document.getElementById('numeroUno').value;
+	numeroDos=document.getElementById('numeroDos').value;
 
-	num1=document.getElementById('numeroUno').value;
-	num2=document.getElementById('numeroDos').value;
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);	
 
-	num1=parseInt(num1);
-	num2=parseInt(num2);
-	dividir= num1/num2;
+	resulto=(numeroUno/numeroDos);
 
-	alert("la division es "+ dividir)
+	alert("la division es "+resulto);
+
 }
+
 

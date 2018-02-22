@@ -1,30 +1,34 @@
 function Mostrar()
 {
 //tomo la edad  
+
+/*al seleccionar un mes informar. 
+si es Enero: "que comiences bien el año!!!." 
+si es Marzo: "a clases!!!." 
+si es Julio: "se vienen las vacaciones!!!." 
+si es Diciembre: "Felices fiesta!!!.*/
+
 var mesDelAño = document.getElementById('mes').value;
 
 switch(mesDelAño)
-{
-	case"Enero":
-				alert("que comiences bien el año");
+	{	
+		case"Enero":
+				alert("que comience bien el año");
 
 				break;
-	case"Marzo":
-				alert("a clases");
+		case"Marzo":
+				alert("a clases!!");
 
 				break;
-	case"Julio":
+		case"Julio":
 				alert("se vienen las vacaciones");
 
 				break;
-	case"Diciembre":
-				alert("Felices fiestas!!");
+		case"Diciembre":
+				alert("Felices fiesta!!");
 
-				break;
+				break;						
 
-
-
-}
-
+	}
 
 }//FIN DE LA FUNCIÓN

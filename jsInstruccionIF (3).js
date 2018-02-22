@@ -1,15 +1,24 @@
 function Mostrar()
 {
 //tomo la edad  
-var edad
+//Al ingresar una edad debemos informar si la persona es mayor de edad, sino informar que es un menor de edad.
+
+var edad;
 
 edad=document.getElementById('edad').value;
 edad=parseInt(edad);
 
-if(edad>=18)
+if(edad>17)
+{
+	alert("Es mayor");
 
-{alert("mayor")}
+}
 else
-{alert("menor")}
+	alert("Es menor");
+
+
+
+
+
 
 }//FIN DE LA FUNCIÓN
